@@ -1,0 +1,286 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+html,
+body {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 4.2rem;
+  color: black;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.6rem;
+  color: black;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-top: 2rem;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #eaeaea;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+}
+
+.nav-container-logo {
+  width: 150px;
+}
+
+.nav-container-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.nav-container-items {
+  margin-left: auto;
+}
+
+.nav-container-items ul {
+  display: flex;
+}
+
+.nav-container-items li {
+  padding: 1rem 1.5rem;
+}
+
+.nav-container-items li:hover {
+  border-bottom: 0.5rem solid #0066f9;
+}
+
+.nav-container-items li:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.nav-container-items a {
+  color: black;
+  font-size: 1.8rem;
+}
+
+.active {
+  border-bottom: 0.5rem solid #0066f9;
+}
+
+.nav-container-items-btn {
+  background-color: #0066f9;
+  border-radius: 0.3rem;
+}
+.nav-container-items-btn a {
+  color: white;
+}
+
+/* Navbar CSS Ends */
+
+main {
+}
+
+.main-container {
+  padding: 5rem 0rem;
+}
+
+.main-container-hr {
+  margin: 3rem 0rem;
+}
+
+.main-container-links a {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin: 2rem 0rem;
+}
+
+.main-container-table table {
+  margin: 2rem 0rem;
+}
+
+.main-container-blur {
+  display: flex;
+  justify-content: center;
+  color: #c5c2c2;
+  margin: 3rem 0rem;
+}
+.main-container-blur h1 {
+  font-size: 1.5rem;
+  color: #c5c2c2;
+  font-weight: 400;
+  line-height: 3rem;
+}
+.main-container-blur-bar {
+  width: 0.6rem;
+  height: 6rem;
+  background-color: #c5c2c2;
+}
+.main-container-blur-text {
+  margin: 0.5rem 0 0 0.5rem;
+}
+
+.main-container-frame {
+  height: 40rem;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.main-container-frame iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.main-container-table th,
+.main-container-table td {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 5rem;
+  border: 0.1rem solid black;
+  padding: 1rem;
+}
+
+.main-container-blog {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2.5rem;
+  padding-top: 2rem;
+}
+
+.main-container-blog-items {
+  width: 100%;
+  overflow: hidden;
+  background-color: #eaeaea;
+}
+
+.main-container-blog-items-img {
+  width: 100%;
+  height: 30rem;
+  max-height: 30rem;
+}
+
+.main-container-blog-items-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.main-container-blog-items-tag {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container-blog-items-tag-name {
+  padding: 1.5rem;
+  background-color: #7d4cdb;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: -2.2rem;
+}
+
+.main-container-heading-modified {
+  margin-bottom: 6rem;
+}
+
+.main-container-blog-items-content {
+  padding: 0 3.5rem 5rem 3.5rem;
+}
+
+.small {
+  font-size: 1.4rem;
+}
+.small span {
+  display: inline-block;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  background-color: black;
+}
+.main-container-contactForm {
+  padding: 5rem 0rem;
+}
+.main-container-contactForm tr {
+  display: block;
+  padding-bottom: 2rem;
+}
+.main-container-contactForm label {
+  font-size: 1.6rem;
+  display: inline-block;
+  width: 10rem;
+}
+.comment-bar {
+  height: 11rem;
+  vertical-align: middle;
+}
+.form-btn {
+  margin-top: -5.5rem;
+}
+.main-container-contactForm textarea {
+  display: inline-block;
+  width: 30rem;
+  height: 10rem;
+  border: #a0e6c4 solid 0.1rem;
+  border-radius: 0.3rem;
+}
+.main-container-contactForm input {
+  padding: 1rem;
+  border: #a0e6c4 solid 0.1rem;
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+}
+.main-container-contactForm input:hover {
+  border: green solid 0.1rem;
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+}
+
+/* Main Section CSS Ends */
+
+.footer-hr {
+  border-top: 0.1rem solid #eaeaea;
+}
+.footer-container {
+  padding: 2rem 0rem;
+}
+.footer-container-icons img {
+  width: 5rem;
+  height: 5rem;
+}
+.footer-container-text {
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+  margin-top: 1rem;
+}

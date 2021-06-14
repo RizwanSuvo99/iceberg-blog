@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav-container">
+        <div class="nav-container-logo">
+          <img src="images/brand-logo.svg" alt="brand-logo" />
+        </div>
+        <div class="nav-container-items">
+          <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="nav-container-items-btn"><a href="#">Button</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container main-container">
+        <h1 class="main-container-heading">Contact Me!</h1>
+        <form class="main-container-contactForm">
+            <table>
+              <tr>
+                <th>
+                  <label>Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                </th>
+                <th>
+                  <input type="text" placeholder="Please Enter Your Name" size="30" maxlength="30">
+                </th>
+              </tr>
+              <tr>
+                <th>
+                  <label>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                </th>
+                <th>
+                  <input type="email" placeholder="Please Enter Your Email" size="30" maxlength="30">
+                </th>
+              </tr>
+              <tr>
+                <th>
+                  <label>Website&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                </th>
+                <th>
+                  <input type="text" placeholder="Please Enter Your website" size="30" maxlength="30">
+                </th>
+              </tr>
+              <tr>
+                <th>
+                  <label>Phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                </th>
+                <th>
+                  <input type="text" size="2" value="+880" readonly>
+                  <input type="text" size="26" placeholder="Please Enter Your Contact No">
+                </th>
+              </tr>
+              <tr>
+                <th>
+                  <label class="comment-bar">Comment&nbsp;&nbsp;:</label>
+                </th>
+                <th>
+                  <textarea></textarea>
+                </th>
+              </tr>
+              <tr class="form-btn">
+                <td>
+                  <td>
+                    <input type="button" value="Submit">
+                    <input type="reset" value="Reset">
+                  </td>
+                </td>
+              </tr>
+            </table>
+          </form>
+      </div>
+    </main>
+
+    <hr class="footer-hr" />
+    <footer>
+      <div class="container footer-container">
+        <div class="footer-container-icons">
+          <img src="images/github.svg" alt="github-logo" />
+          <img src="images/twitter.svg" alt="twitter-logo" />
+        </div>
+        <p class="footer-container-text">
+          Iceberg Gatsby é um PWA, salve o site em sua homescreen para vê-lo
+          offline. Leia mais sobre PWA aqui. Projeto mantido por
+          @_diogorodrigues. Você sempre poderá contribuir com esse projeto no
+          Github.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
